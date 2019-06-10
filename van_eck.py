@@ -1,4 +1,7 @@
 import sys
+if len(sys.argv) < 2:
+	print("Please specify a length!")
+	exit()
 seq = [0, 0]
 seq_len = int(sys.argv[1])
 for i in range(2, seq_len):
